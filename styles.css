@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	border: none;
+}
+
+.container {
+	display: flex;
+	max-width: 1920px;
+}
+
+.left {
+	flex: 1;
+	display: flex;
+}
+
+.left img {
+	max-width: 100%;
+}
+
+.right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Unbounded';
+	font-size: 48px;
+}
+
+.progress-scale {
+	width: 592px;
+	height: 8px;
+	background-color: #E1E4E8;
+	border-radius: 5px;
+	margin-top: 95px;
+}
+
+.progress {
+	width: 70%;
+	height: 100%;
+	background-color: #10A674;
+	border-radius: 5px;
+}
+
+.registration {
+	/* width: 592px; */
+	margin-top: 48px;
+}
+
+.form-field {
+	margin-bottom: 32px;
+}
+
+input {
+	width: 592px;
+    height: 64px;
+	padding-left: 24px;
+	font-family:'Min Sans';
+	font-size: 20px;
+	/* line-height: 27px; */
+	color: rgba(0, 0, 0, 0.4);
+	background-color: #FBFBFB;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+}
+
+.form-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 48px;
+}
+
+.next-button,
+.back-button {
+	width: 130px;
+	height: 57px;
+	border-radius: 8px;
+}
+
+.back-button {
+	background-color: rgba(225, 225, 225, 0.7);
+}
+
+.next-button {
+	width: 438px;
+	background-color: #5D21D0; 
+	font-size: 20px;
+    font-family: 'Unbounded';
+    color: #FFFFFF; 
+}
+
+.back-button:hover, .next-button:hover { 
+    cursor: pointer; 
+}
+
+/*.back-button:focus, .next-button:focus { 
+    outline: none; 
+}*/
+
